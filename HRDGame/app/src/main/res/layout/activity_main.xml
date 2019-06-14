@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/re"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/wood">
+
+
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/cao"
+        android:layout_width="202dp"
+        android:layout_height="202dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/cc2"
+        android:text="caocao"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/bing"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/bing"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="466dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/zhao"
+        android:layout_width="101dp"
+        android:layout_height="202dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/zhaoyun"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/zhang"
+        android:layout_width="101dp"
+        android:layout_height="202dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="117dp"
+        android:background="@drawable/zhangfei"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/guan"
+        android:layout_width="202dp"
+        android:layout_height="101dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="319dp"
+        android:background="@drawable/guanyu"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/bing1"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="420dp"
+        android:background="@drawable/bing"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/bing2"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="521dp"
+        android:background="@drawable/bing"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/bing3"
+        android:layout_width="101dp"
+        android:layout_height="101dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="521dp"
+        android:background="@drawable/bing"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/huang"
+        android:layout_width="101dp"
+        android:layout_height="202dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="319dp"
+        android:background="@drawable/huang"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <com.example.hrdgame.GameView
+        android:id="@+id/ma"
+        android:layout_width="101dp"
+        android:layout_height="202dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="309dp"
+        android:layout_marginTop="319dp"
+        android:background="@drawable/ma"
+        tools:layout_editor_absoluteX="306dp"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <View
+        android:layout_width="129dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="282dp"
+        android:layout_marginTop="628dp"
+        android:background="@drawable/gold"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <View
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="623dp"
+        android:background="@drawable/gold"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:background="@drawable/scroll">
+
+        <include
+            layout="@layout/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="206dp"
+            android:layout_marginTop="33dp" />
+
+        <ImageView
+            android:id="@+id/text_time"
+            android:layout_width="52dp"
+            android:layout_height="49dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="155dp"
+            android:layout_marginTop="26dp"
+            android:layout_x="194dp"
+            android:layout_y="1dp"
+            android:src="@drawable/watch"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="76dp"
+            tools:layout_editor_absoluteY="6dp" />
+
+        <TextView
+            android:id="@+id/text_step"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="37dp"
+            android:text="步:"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="303dp"
+            tools:layout_editor_absoluteY="34dp" />
+
+        <TextView
+            android:id="@+id/step_num"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="97dp"
+            android:layout_marginTop="39dp"
+            android:text="0"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="3dp" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="74dp"
+        android:background="@drawable/gold1"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <Button
+        android:id="@+id/button_back"
+        android:layout_width="51dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="322dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/backup"
+        android:onClick="backUp"
+        android:textSize="20dp" />
+
+
+</RelativeLayout>
